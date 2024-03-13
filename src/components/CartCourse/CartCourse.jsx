@@ -1,11 +1,11 @@
 import React from "react";
 
-const CartCourse = ({ course }) => {
-  console.log(course);
+const CartCourse = ({ course, idx }) => {
+  // console.log(course);
   return (
-    <ol>
-      <li>{course.name}</li>
-    </ol>
+    <p>
+      {idx + 1} {course.name}
+    </p>
   );
 };
 

@@ -18,7 +18,7 @@ const Course = ({ course, handleAddToCart }) => {
             <FiDollarSign className="inline text-2xl" /> Price: {price}
           </p>
           <p>
-            <HiOutlineBookOpen className="inline text-2xl" /> Credit: {credit}
+            <HiOutlineBookOpen className="inline text-2xl" /> Credit: {credit}hr
           </p>
         </div>
         <div className="card-actions justify-end">
