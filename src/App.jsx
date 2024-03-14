@@ -22,10 +22,10 @@ function App() {
         setPrice(newPrice);
         toast.success("Course Added Successfully");
       } else {
-        toast.error("Do not Allow over 20 credit");
+        toast.error("Do not allow over 20 credit");
       }
     } else {
-      toast.error("Course Already exist in Cart");
+      toast.error("Course already exist in Cart");
     }
   };
 
